@@ -1,0 +1,228 @@
+html{
+  max-height:100%;
+  width:100%;
+}
+body{
+  height:100%;
+  position: relative;
+}
+#compte{
+	width: 20%;
+	margin-left: 5px;
+}
+#historique{
+	margin-bottom: 20px;
+}
+.titre{
+	color: black;
+	font-size: 2em;
+}
+#content{
+	min-height: 100%;
+	position: relative;
+}
+#main{
+	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	position:relative;
+	padding-bottom: 120px;
+}
+#header{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+@media screen and (min-height: 1000px){
+	#main{
+		min-height: 800px;
+	}
+	#header{
+		min-height: 200px;
+	}
+}
+@media screen and (min-height: 800px){
+	#main{
+		min-height: 700px;
+	}
+	#header{
+		min-height: 150px;
+	}
+}
+#liste{
+	float: left;
+}
+.footer-min {
+	position: absolute;
+	background-position: 50% 100%;
+	min-height: 100px;
+	background: #eee;
+    border-top: 1px solid #d5d5d5;
+	width: 100%;
+	bottom: 0px;
+	margin-top: 20px;
+}
+.footer-max {
+	position: relative;
+	background-position: 50% 100%;
+	min-height: 100px;
+	background: #eee;
+    border-top: 1px solid #d5d5d5;
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+footer .row{
+	margin: 1rem 6.5rem;
+	columns: 4 24%;
+	float:left;
+	font-size:100%;
+	margin-bottom:2%;
+}
+footer .titre {
+	color:#777;
+	font-size: 2rem;
+}
+.historique{
+	min-height: 100px;
+}
+td .titre{
+	font-size: 14px;
+	color: #337ab7;
+}
+#img_hotel{	
+	float:left;
+	margin-left: 2%;
+	width: 100px;
+}
+#selection{	
+	padding: 2%;
+	margin: 2%;
+	border-top: 1px solid black;
+}
+#prix_chb{
+	color:red;
+	float: right;
+	margin-left: 100px;
+}
+#photo{
+	margin-right: 800px;
+	float: left;
+	width: 500px;
+	height:370px;
+}
+#img{
+	margin-right: 50px;
+	float: left;
+	width: 100px;
+	height: 70px;
+}
+#ch{
+	display: relative;
+	margin: 70px;
+}
+#dispo{
+	border-bottom: 1px solid #e5e5e5;
+	margin: 50px;
+	padding-bottom: 20px;
+	color: green;
+	position: float;
+	bottom: 0;
+}
+#non_dispo{
+	border-bottom: 1px solid #e5e5e5;
+	margin: 50px;
+	padding-bottom: 20px;
+	color: red;
+	position: float;
+	bottom: 0;
+}
+#img_header{
+	width:100%;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 30px;
+	padding-bottom: 5px;
+}
+#champ{
+	width: 300px;
+}
+#boutton{
+	position: relative;
+	background-color: rgb(5, 196, 83);	
+	float: right;
+	width: 200px;
+	margin: 50px;
+}
+#boutton_valider{
+	position: relative;
+	background-color: rgb(5, 196, 83);	
+	width: 200px;
+	margin: 50px;
+}
+#changer_le_dates{
+	position: relative;
+	background-color: rgb(5, 196, 83);
+	margin: 20px;
+	width: 200px;
+}
+#date{
+	width: 100%;
+}
+#nom_hotel{
+	margin-left: 200px;
+}
+#prix{
+	float:right;
+	margin-right: 50px;
+}
+#photo_2{
+	margin: 10px;
+}
+span.label{
+	color:black;
+	width:30;
+	height:16;
+	text-align:center;
+	margin-top:0;
+	background:#ffF;
+	font:bold 13px Arial
+	}
+span.c1{
+	cursor:hand;
+	color:black;
+	width:30;
+	height:16;
+	text-align:center;
+	margin-top:0;
+	background-color:green;
+	font:bold 13px Arial
+	}
+span.c2{
+	cursor:hand;
+	color:#000080;
+	width:30;
+	height:16;
+	text-align:center;
+	margin-top:0;
+	background-color:green;
+	font:bold 13px Arial
+	}
+span.c3{
+	cursor:hand;
+	color:#b0b0b0;
+	width:30;
+	height:16;
+	text-align:center;
+	margin-top:0;
+	background-color:green;
+	font:bold 12px Arial
+	}
+#results{
+	border: solid 1px #e5e5e5;
+	background-color: #eee;
+}
+#legend{
+	border:none;
+	color:#337ab7;
+}
+
